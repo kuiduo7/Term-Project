@@ -65,6 +65,11 @@ global styles
   .section-heading img {
     margin: 20px auto;
   }
+  
+  .section-heading img + p {
+   color: #232d39;
+  }
+  
 
 /* 
 ---------------------------------------------
@@ -129,3 +134,4 @@ about
     line-height: 28px;
     font-size: 15px;
 }
+
