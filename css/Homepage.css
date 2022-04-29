@@ -67,6 +67,10 @@ global styles
   margin: 20px auto;
 }
 
+.section-heading img + p {
+ color: #232d39;
+}
+
 /* 
 ---------------------------------------------
 header
@@ -218,6 +222,12 @@ app
 #F_app #app_info h2 {
   color: #ed563b;
   margin-bottom: 15px;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+#F_app #app_info h2 + p {
+  font-size: 18px;
 }
 
 /*
