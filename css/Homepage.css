@@ -232,7 +232,7 @@ app
 
 /*
 ---------------------------------------------
-features
+Training_style
 ---------------------------------------------
 */
 
@@ -248,6 +248,12 @@ features
 .training_style-item .left-icon img {
   float: left;
   margin-right: 30px;
+}
+
+.training_style-item .icon_style {
+  width: 100px;
+  border: 1px solid red;
+  border-radius: 20%;
 }
 
 .training_style-item .right-content {
@@ -277,32 +283,25 @@ features
   font-weight: 500;
 }
 
-.training_style-item .icon_style {
-  width: 100px;
-  border: 1px solid red;
-  border-radius: 20%;
-}
-
-
 /* 
 ---------------------------------------------
 trainers
 --------------------------------------------- 
 */
 
-#F_trainers .trainer-item {
+#F_trainers .trainer-info {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
   padding: 40px;
 }
 
-#F_trainers .trainer-item img {
+#F_trainers .trainer-info img {
   width: 100%;
   border-radius: 5px;
 }
 
-#F_trainers .trainer-item span {
+#F_trainers .trainer-info span {
   font-weight: 500;
   color: #ed563b;
   display: inline-block;
@@ -310,7 +309,7 @@ trainers
   margin-bottom: 10px;
 }
 
-#F_trainers .trainer-item span+h4 {
+#F_trainers .trainer-info span + h4 {
   font-size: 19px;
   font-weight: 600;
   color: #232d39;
@@ -318,7 +317,7 @@ trainers
   margin-bottom: 18px;
 }
 
-#F_trainers .trainer-item h4 + p {
+#F_trainers .trainer-info h4 + p {
   margin-bottom: 20px;
 }
 
@@ -378,6 +377,13 @@ footer
   text-align: center;
 }
 
+#F_footer .footer p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  color: black;
+}
+
 #F_footer .footer ul {
   margin-top: 20px;
 }
@@ -389,19 +395,9 @@ footer
 
 #F_footer .footer ul li a {
   font-size: 22px;
-}
-
-#F_footer .footer p {
-  color: #fff;
-  font-size: 14px;
-  font-weight: 300;
   color: black;
 }
 
-#F_footer .footer a {
-  color: black;
-}
-
-#F_footer .footer a:hover {
+#F_footer .footer ul li a:hover {
   color: #ed563b;
 }
