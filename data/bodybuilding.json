@@ -1,0 +1,16 @@
+{
+    "code" :  "0",
+    "data" : {
+        "title1" : "BODY",
+        "title2" :" BUILDING",
+        "description" : "This covers information about bodybuilding and the advantages of this fitness program, and we hope that this information will help you to better understand this sport.",
+        "imagetop" : "/images/line-dec.png",
+        "imageright": "/images/bodybuilding_page.jpeg",
+        "introduction" : [
+            {"dec": "Bodybuilding, a regimen of exercises designed to enhance the human body’s muscular development and promote general health and fitness. As a competitive activity, bodybuilding aims to display in artistic fashion pronounced muscle mass, symmetry, and definition for overall aesthetic effect. Barbells, dumbbells, and other resistance training devices are used in the exercises. For the use of similar exercises for sports training and conditioning, general conditioning, and rehabilitation therapy."},
+            {"dec": "Bodybuilding utilizes progressive resistance exercises to build control and develop targeted muscle groups through muscle hypertrophy. The equipment used in bodybuilding can be extensive as a result access to a gym is beneficial to its pursuit."},
+            {"dec": "Bodybuilding, weight training and aerobic exercise increase self-esteem, improve your health and body, lift your mood, reduce stress and frustration, improve your sleeping patterns, distract your mind from worries and difficult life events and situations, help you gain control of your life, body and mind."}
+        ]
+    },
+    "msg" : "success!"
+}

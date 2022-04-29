@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilates</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/Training_style.css">
+</head>
+<body>
+    <!--Header-->
+        <header id="F_header">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12">
+                  <nav class="navbar navbar-default navbar-static-top navbar-F">
+                  <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#F-nav " aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="#">
+                          <img src="/images/logo.jpg" alt="logo" width="50">
+                      </a>
+                    </div>
+                
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="F-nav">
+                      <ul class="nav navbar-nav">
+                        <li><a href="/html/homepage.html">Home</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Training Style<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                            <li><a href="/html/body_building.html">Bodybuilding</a></li>
+                            <li><a href="/html/power_Lifting.html">Powerlifting</a></li>
+                            <li><a href="/html/olympic_lifting.html">Olympiclifting</a></li>
+                            <li><a href="/html/Pilates.html">Pilates</a></li>
+                            <li><a href="/html/yoga_training.html">Yoga</a></li>
+                            <li><a href="/html/functional_fitness.html">Functional</a></li>
+                            </ul>
+                        </li>
+                      </ul>
+                    </div><!-- /.navbar-collapse -->
+                  </div><!-- /.container-fluid -->
+              </nav>
+                </div>
+              </div>
+            </div>
+  
+              
+        </header>
+    <!--/header-->
+
+    <!--Carousel-->
+    <section id="F_carousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#F_carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#F_carousel" data-slide-to="1"></li>
+            <li data-target="#F_carousel" data-slide-to="2"></li>
+            <li data-target="#F_carousel" data-slide-to="3"></li>
+            <li data-target="#F_carousel" data-slide-to="4"></li>
+            <li data-target="#F_carousel" data-slide-to="5"></li>
+            
+        </ol>
+        
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active" data-sm-img="/images/yoga_640x340.jpeg" data-lg-img="/images/yoga.jpeg"></div>
+            <div class="item" data-sm-img="/images/powerlifting_640x340.jpeg" data-lg-img="/images/powerlifting.jpeg"></div>
+            <div class="item" data-sm-img="/images/pilates_640x340.jpeg" data-lg-img="/images/pilates.jpeg"></div>
+            <div class="item" data-sm-img="/images/functionalfitness_640x340.jpeg" data-lg-img="/images/functionalfitness.jpeg"></div>
+            <div class="item" data-sm-img="/images/bodybuilding_640x340.jpeg" data-lg-img="/images/bodybuilding.jpeg"> </div>
+            <div class="item" data-sm-img="/images/olympicweightlifting_640x340.png" data-lg-img="/images/olympicweightlifting.png"> </div>
+        </div>
+        
+        <!-- Controls -->
+        <a class="left carousel-control" href="#F_carousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#F_carousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>        
+    </section>
+    <!--/carousel-->
+
+    <!--Info-->
+    <section id="F_style"> 
+      <div class="container" id="app">
+        <!--title-->
+        <div class="row">
+          <div class="col-lg-6 col-lg-offset-3">
+            <div class="section-heading dark-bg">
+                <h2>{{title1}} <em>{{title2}}</em></h2>
+                <img :src="imagetop" alt="">
+                <p>{{description}}</p>
+            </div>
+          </div>
+        </div>
+        <!--content-->
+        <div class="row" >
+          <div class="col-md-8">
+              <div v-for="(item,index) in introduction" :key="index"> 
+                  <p class="text-muted">{{item.dec}}</p>
+              </div>
+              
+          </div>
+          <div class="col-md-4">
+            <img :src="imageright" alt="" class="img-rounded img-responsive">
+         </div>
+          <div></div>
+        </div> 
+      </div>
+    </section>
+    <!--/Info-->
+
+      <script src="/js/vue.js"></script>
+      <script src="/js/jquery.js"></script>
+      <script src="/bootstrap/js/bootstrap.js"></script>
+      <script src="/js/Training_style.js"></script>
+      <script src="/js/pilates.js"></script>
+</body>
+</html>

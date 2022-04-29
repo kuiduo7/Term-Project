@@ -1,0 +1,16 @@
+{
+    "code" :  "0",
+    "data" : {
+        "title1" : "Functional",
+        "title2" :" fitness",
+        "description" : "This covers information about bodybuilding and the advantages of this fitness program, and we hope that this information will help you to better understand this sport.",
+        "imagetop" : "/images/line-dec.png",
+        "imageright": "/images/functionalfitness_page.jpeg",
+        "introduction" : [
+            {"dec": "Functional fitness focuses on real-life movements and activities to promote health in daily tasks. Movements such as pushing, pulling, lifting, and reaching are combined into various exercise routines with varying equipment and weight. The basic components include strength, balance and coordination, power, range of motion, and mobility."},
+            {"dec": "Functional training typically uses weight-bearing activities that work the core muscles in the torso as well as multiple joint exercises known as compound movements. By comparison, most fitness plans focus on isolation training, such as upper body vs lower body or even more specifically training the biceps or just the shoulders. Isolation training targets muscles in a way that doesn't always reflect (or best support) the real-life, natural actions we make as we go about our day."},
+            {"dec": "Functional training can improve the overall function of your body, boosting muscle strength and endurance. You can develop stability in your muscles and your body, allowing you to complete everyday activities more efficiently."}
+        ]
+    },
+    "msg" : "success!"
+}

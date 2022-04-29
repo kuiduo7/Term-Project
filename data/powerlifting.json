@@ -1,0 +1,16 @@
+{
+    "code" :  "0",
+    "data" : {
+        "title1" : "Power",
+        "title2" :" Lifting",
+        "description" : "This covers information about powerlifting and the advantages of this fitness program, and we hope that this information will help you to better understand this sport.",
+        "imagetop" : "/images/line-dec.png",
+        "imageright": "/images/powerlifting_page.jpeg",
+        "introduction" : [
+            {"dec": "Powerlifting is a strength sport consisting of three different lifts utilizing a barbell. They include squat, bench press, and deadlift. Powerlifting is focused on maximal weight for each of the movements and working to learn and excel in every aspect of each lift. Powerlifting, unlike bodybuilding, does not emphasize the pursuit of a specified physique, rather to attain as much power as possible."},
+            {"dec": "Powerlifting strengthens the muscles of your legs, back and upper body. Nearly every skeletal muscle is strengthened with a powerlifting routine. The squat works the muscles of your legs and hips better than many other training alternatives, according to a 2001 study published in Medicine & Science in Sports & Exercise. The deadlift strengthens your back and legs, and the bench press strengthens most of the muscles of your upper body. The few muscles that are not worked directly on these three exercises are trained using assistance exercises to improve the three competitive lifts."},
+            {"dec": "Powerlifting is a very intense form of exercise and burns a great many calories. One of the benefits of intense training is not just the calories you burn while training, but the long-term effect this has on your metabolism. In a 1994 study published in the American Journal of Clinical Nutrition, study participants undergoing resistance training increased their caloric demands over a 24-hour period by 15 percent. Resistance training such as powerlifting has long been shown to be effective for fat loss."}
+        ]
+    },
+    "msg" : "success!"
+}

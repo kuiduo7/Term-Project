@@ -1,0 +1,131 @@
+/* 
+---------------------------------------------
+font & reset css
+--------------------------------------------- 
+*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+/* 
+---------------------------------------------
+reset
+--------------------------------------------- 
+*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html {
+    height: -webkit-fill-available;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #fff;
+    font-size: 16px;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #7a7a7a;
+  }
+
+  /* 
+---------------------------------------------
+global styles
+--------------------------------------------- 
+*/
+
+.section-heading {
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 80px;
+  }
+  
+  .section-heading h2 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #232d39;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .section-heading h2 em {
+    font-style: normal;
+    color: #ed563b;
+  }
+  
+  .section-heading img {
+    margin: 20px auto;
+  }
+
+/* 
+---------------------------------------------
+header
+--------------------------------------------- 
+*/
+#F_header{
+    background-color: rgb(43, 48, 55);
+   }
+   #F_header .navbar-F{
+       margin-bottom: 0px;
+       background: transparent;
+       border-color:transparent;
+   }
+   
+   #F_header .navbar-F .navbar-brand{
+       height: 70px;
+       padding: 10px 15px;
+   }
+   
+   #F_header .navbar-F .navbar-nav a{
+       height: 70px;
+       line-height: 40px;
+   }
+   
+   #F_header .navbar-F .navbar-toggle {
+       margin-top: 18px;
+   }
+   
+   #F_header .navbar-F .navbar-nav li.active a,
+   #F_header .navbar-F .navbar-nav li a:hover{
+       background-color: transparent;
+       border-bottom: 2px solid #fff;
+       color: white;
+   }
+
+/* 
+---------------------------------------------
+carousel
+--------------------------------------------- 
+*/
+#F_carousel .item{
+    background: no-repeat center center;
+    background-size: cover;
+}
+
+@media screen and ( min-width: 640px) {
+    
+    #F_carousel .item{
+        height: 900px;
+    }
+}
+
+
+  /* 
+---------------------------------------------
+about
+--------------------------------------------- 
+*/
+
+#F_style .row p{
+    line-height: 28px;
+    font-size: 15px;
+}

@@ -1,0 +1,16 @@
+{
+    "code" :  "0",
+    "data" : {
+        "title1" : "PILATES",
+        "title2" :" Trainning",
+        "description" : "This covers information about Pilates and the advantages of this fitness program, and we hope that this information will help you to better understand this sport.",
+        "imagetop" : "/images/line-dec.png",
+        "imageright": "/images/pilates_page.jpeg",
+        "introduction" : [
+            {"dec": "Pilates is a mind-body exercise that requires core stability, strength, and flexibility, and attention to muscle control, posture, and breathing. Pilates consists of a flexible system of different exercises providing a range of difficulties."},
+            {"dec": "Pilates is a form of exercise similar to yoga, involving a series of movements which concentrates on core strength, posture, balance and flexibility. Pilates was developed by German-born Joseph Pilates, who believed mental and physical health were closely connected, and practising Pilates has been proven to improve overall wellbeing as well as general fitness."},
+            {"dec": "Practising Pilates on a regular basis provides plenty of well-rounded benefits. The beauty of Pilates is that anyone, at any age can get started. Through the controlled and progressive movements you can totally reshape your body. In Pilates, you are building toned muscles that work well both with your body as a whole and your functional fitness as you move through life."}
+        ]
+    },
+    "msg" : "success!"
+}

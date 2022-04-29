@@ -1,0 +1,16 @@
+{
+    "code" :  "0",
+    "data" : {
+        "title1" : "Olympic",
+        "title2" :" Lifting",
+        "description" : "This covers information about olympiclifting and the advantages of this fitness program, and we hope that this information will help you to better understand this sport.",
+        "imagetop" : "/images/line-dec.png",
+        "imageright": "/images/olympiclifting_page.jpeg",
+        "introduction" : [
+            {"dec": "Olympic Weightlifting or weightlifting for short utilizes a few complex movements in which lifters move a barbell loaded with weight from the ground to overhead position. The general movements include the snatch, clean, jerk, and press. Unlike powerlifting or bodybuilding, weightlifting has an emphasis on human ballistic limits(explosive strength). Movements in weightlifting are typically executed faster, requiring greater mobility and flexibility."},
+            {"dec": "The sport of Olympic weightlifting is comprised of the snatch, and clean and jerk. The snatch is a lift in which you take the bar from the floor to overhead in one swift movement. The clean and jerk is a lift in which you take the bar from the bar to the shoulder in one swift movement, and then take it from the shoulder to overhead in a second movement. The Olympic lifts are full-body, explosive movements that require the use of every muscle group in the body."},
+            {"dec": "The snatch and clean and jerk are full-body lifts that use the legs, glutes, back, abs, shoulders, and arms. Performing the lifts burns more calories in a shorter period of time compared to performing isolation/single-joint movements. The lifts and accessory lifts can be used to put on lean tissue, increase strength, and ultimately decrease body fat."}
+        ]
+    },
+    "msg" : "success!"
+}
