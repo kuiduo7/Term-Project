@@ -135,7 +135,6 @@ about
     font-size: 15px;
 }
 
-/* #F_style .row p::first-letter {
-    color: black;
-    font-size: 150%;
-} */
+#F_style .training-info p::first-letter {
+    font-size: 130%;
+}
