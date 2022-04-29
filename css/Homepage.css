@@ -107,7 +107,6 @@ header
   color: white;
 }
 
-/*header css*/
 
 /* 
 ---------------------------------------------
@@ -180,6 +179,9 @@ banner
 about
 --------------------------------------------- 
 */
+#F_about{
+  margin-bottom: 210px;
+}
 
 #F_about .row p {
   line-height: 28px;
