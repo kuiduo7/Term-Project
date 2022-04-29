@@ -217,7 +217,7 @@
                 <h4>Body Building</h4>
                 <p>Bodybuilding is the use of progressive resistance exercise to control and develop one's muscles
                   (muscle building) by muscle hypertrophy for aesthetic purposes.</p>
-                <a href="/html/body_building.html" class="text-button">Show More</a>
+                <div class="text-button" @click="jump_to_body_building()">Show More</div>
               </div>
             </li>
             <li class="training_style-item">
@@ -228,7 +228,7 @@
                 <h4>Power Lifting</h4>
                 <p>Powerlifting is a strength sport that consists of three attempts at maximal weight on three lifts:
                   squat, bench press, and deadlift. </p>
-                <a href="/html/power_Lifting.html" class="text-button">Show More</a>
+                <div class="text-button" @click="jump_to_power_Lifting()">Show More</div>
               </div>
             </li>
             <li class="training_style-item">
@@ -239,7 +239,7 @@
                 <h4>Olympic Lifting</h4>
                 <p>Olympic weightlifting is a sport in which athletes compete in lifting a barbell loaded with weight
                   plates from the ground to overhead.</p>
-                <a href="/html/olympic_lifting.html" class="text-button">Show More</a>
+                <div class="text-button" @click="jump_to_olympic_lifting()">Show More</div>
               </div>
             </li>
           </ul>
@@ -254,7 +254,7 @@
                 <h4>Pilates</h4>
                 <p>Pilates is a form of low-impact exercise that aims to strengthen muscles while improving postural
                   alignment and flexibility. </p>
-                <a href="/html/pilates.html" class="text-button">Show More</a>
+                <div class="text-button" @click="jump_to_pilates()">Show More</div>
               </div>
             </li>
             <li class="training_style-item">
@@ -265,7 +265,7 @@
                 <h4>Yoga Training</h4>
                 <p>Yoga is essentially a spiritual discipline based on an extremely subtle science, which focuses on
                   bringing harmony between mind and body. </p>
-                <a href="/html/yoga_training.html" class="text-button">Show More</a>
+                <div class="text-button" @click="jump_to_yoga_training()">Show More</div>
               </div>
             </li>
             <li class="training_style-item">
@@ -276,7 +276,7 @@
                 <h4>Functional Fitness</h4>
                 <p>Functional fitness means doing movements that mimic everyday actions, incorporating multiple muscles
                   groups at the same time.</p>
-                <a href="/html/functional_fitness.html" class="text-button">Show More</a>
+                <div class="text-button" @click="jump_to_functional_fitness()">Show More</div>
               </div>
             </li>
           </ul>
@@ -359,17 +359,18 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <!-- CONTACT FORM -->
-          <form action="https://formspree.io/f/mgedazlr" method="post" class="wow fadeInUp" data-wow-delay="0.8s">
+          <!-- <form action="https://formspree.io/f/mgedazlr" method="post" data-wow-delay="0.8s"> -->
+          <form role="form" @submit.prevent="sendEmail">  
             <div class="col-md-6 col-sm-6">
-              <input type="text" class="form-control" name="name" placeholder="Full name">
+              <input type="text" class="form-control" name="name" v-model="nameMsg" placeholder="Full name">
             </div>
             <div class="col-md-6 col-sm-6">
-              <input type="email" class="form-control" name="email" placeholder="Email address">
+              <input type="email" class="form-control" name="email" v-model="emailMsg" placeholder="Email address">
             </div>
             <div class="col-md-12 col-sm-12">
-              <input type="text" class="form-control" name="title" placeholder="Title">
-              <textarea class="form-control" rows="6" name="message" placeholder="Tell us about your idea"></textarea>
-              <button type="submit" class="form-control" id="cf-submit" name="submit">Send Message</button>
+              <input type="text" class="form-control" name="title" v-model="titleMsg" placeholder="Title">
+              <textarea class="form-control" rows="6" name="message" v-model="mainMsg" placeholder="Tell us about your idea"></textarea>
+              <button type="submit" class="form-control" id="submit-info" name="submit" :disabled="!nameMsg || !emailMsg || !titleMsg || !mainMsg">Send Message</button>
             </div>
           </form>
         </div>
@@ -400,6 +401,7 @@
 
   <script src="/js/jquery.js"></script>
   <script src="/bootstrap/js/bootstrap.js"></script>
+  <script src="/js/vue.js"></script>
   <script src="/js/homepage.js"></script>
 </body>
 

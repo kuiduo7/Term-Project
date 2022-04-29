@@ -264,7 +264,11 @@ features
   text-transform: capitalize;
 }
 
-.training_style-item .right-content a.text-button {
+.training_style-item .right-content h4 + p {
+  color: #232d39;
+}
+
+.training_style-item .right-content .text-button {
   margin-top: 7px;
   display: inline-block;
   font-size: 13px;
@@ -314,7 +318,7 @@ trainers
   margin-bottom: 18px;
 }
 
-#F_trainers .trainer-item h4+p {
+#F_trainers .trainer-item h4 + p {
   margin-bottom: 20px;
 }
 
@@ -336,15 +340,15 @@ trainers
 
 #F_contact .form-control:hover,
 #F_contact .form-control:focus {
-  border-bottom-color: #c9c9c9;
+  border-bottom-color: #ed563b;
 }
 
 #F_contact input {
   height: 55px;
 }
 
-#F_contact button#cf-submit {
-  background: #ed563b;
+#F_contact button#submit-info {
+  background: #232d39;
   border-radius: 0;
   border: 0;
   color: #ffffff;
@@ -352,8 +356,8 @@ trainers
   height: 46px;
 }
 
-#F_contact button#cf-submit:hover {
-  background: #232d39;
+#F_contact button#submit-info:hover {
+  background: #ed563b;
   color: #ffffff;
 }
 

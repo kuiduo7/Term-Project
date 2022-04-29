@@ -134,3 +134,8 @@ about
     line-height: 28px;
     font-size: 15px;
 }
+
+/* #F_style .row p::first-letter {
+    color: black;
+    font-size: 150%;
+} */
