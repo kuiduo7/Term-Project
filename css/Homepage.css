@@ -293,7 +293,7 @@ trainers
     margin-bottom: 10px;
   }
   
-#F_trainers .trainer-item h4 {
+#F_trainers .trainer-item span + h4 {
     font-size: 19px;
     font-weight: 600;
     color: #232d39;
@@ -301,29 +301,9 @@ trainers
     margin-bottom: 18px;
   }
   
-#F_trainers .trainer-item p {
+#F_trainers .trainer-item h4 + p {
     margin-bottom: 20px;
   }
-  
-#F_trainers .trainer-item ul.social-icons li {
-    display: inline-block;
-    margin-right: 12px;
-  }
-  
-#F_trainers .trainer-item ul.social-icons li:last-child {
-    margin-right: 0px;
-  }
-  
-#F_trainers .trainer-item ul.social-icons li a {
-    color: #232d39;
-    transition: all .3s;
-  }
-  
-#F_trainers .trainer-item ul.social-icons li a:hover {
-    color: #ed563b;
-  }
-
-
 
   /*---------------------------------------
     contact             
