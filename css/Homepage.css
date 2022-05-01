@@ -382,11 +382,11 @@ footer
   margin: 0px 10px;
 }
 
-#F_footer .footer ul li a {
+#F_footer .footer ul li .normal {
   font-size: 22px;
   color: black;
 }
 
-#F_footer .footer ul li a:hover {
+#F_footer .footer ul li .active {
   color: #ed563b;
 }

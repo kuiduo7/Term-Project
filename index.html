@@ -385,10 +385,10 @@
           <div class="footer">
             <p>Design: Yi Hou</p>
             <ul>
-              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-              <li><a href="https://www.instagram.com/yi_h75/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-              <li><a href="https://www.linkedin.com/in/yi-hou-882032223/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-              <li><a href="https://github.com/kuiduo7/Term-Project"> <i class="fa fa-github" aria-hidden="true"></i></a></li>
+              <li><div class="normal"  @click="to_facebook()" v-on:mouseover="changeActive($event)" v-on:mouseout="removeActive($event)"><i class="fa fa-facebook" aria-hidden="true"></i></div></li>
+              <li><div class="normal"  @click="to_instagram()" v-on:mouseover="changeActive($event)" v-on:mouseout="removeActive($event)"><i class="fa fa-instagram" aria-hidden="true"></i></div></li>
+              <li><div class="normal"  @click="to_linkedin()" v-on:mouseover="changeActive($event)" v-on:mouseout="removeActive($event)"><i class="fa fa-linkedin" aria-hidden="true"></i></div></li>
+              <li><div class="normal"  @click="to_github()" v-on:mouseover="changeActive($event)" v-on:mouseout="removeActive($event)"><i class="fa fa-github" aria-hidden="true"></i></div></li>
             </ul>
           </div>
         </div>

@@ -85,3 +85,29 @@ var app = new Vue({
     }
 })
 
+var app = new Vue({
+    el: '#F_footer',
+    data: {
+        
+    },
+    methods: {
+        to_facebook(){
+            window.location.href='';
+        },
+        to_instagram(){
+            window.location.href='https://www.instagram.com/yi_h75/';
+        },
+        to_linkedin(){
+            window.location.href='https://www.linkedin.com/in/yi-hou-882032223/';
+        },
+        to_github(){
+            window.location.href='https://github.com/kuiduo7/Term-Project';
+        },
+        changeActive($event){
+            $event.currentTarget.className="normal active";
+          },
+        removeActive($event){
+            $event.currentTarget.className="normal";
+        }
+    }
+})
