@@ -34,5 +34,5 @@ $(function(){
 });
 
 $('.carousel').carousel({
-    interval: 1000,
+    interval: 2000,
   })
