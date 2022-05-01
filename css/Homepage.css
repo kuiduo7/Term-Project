@@ -144,15 +144,6 @@ banner
   transform: translate(-50%, -50%);
 }
 
-.main-banner .caption h6 {
-  margin-top: 0px;
-  font-size: 18px;
-  text-transform: uppercase;
-  font-weight: 800;
-  color: #fff;
-  letter-spacing: 0.5px;
-}
-
 .main-banner .caption h2 {
   margin-top: 30px;
   margin-bottom: 25px;
@@ -163,7 +154,7 @@ banner
   letter-spacing: 1px;
 }
 
-.main-banner .caption h2 em {
+.main-banner .caption h2 + em {
   font-style: normal;
   color: #ed563b;
   font-weight: 900;
