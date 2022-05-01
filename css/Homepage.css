@@ -53,7 +53,7 @@ global styles
   margin-bottom: 0px;
 }
 
-.section-heading h2 + em {
+.section-heading h2 em {
   font-style: normal;
   color: #ed563b;
 }
@@ -154,7 +154,7 @@ banner
   letter-spacing: 1px;
 }
 
-.main-banner .caption h2 + em {
+.main-banner .caption h2 em {
   font-style: normal;
   color: #ed563b;
   font-weight: 900;
