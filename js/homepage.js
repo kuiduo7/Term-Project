@@ -20,6 +20,31 @@ $(function () {
 });
 
 var app = new Vue({
+    el: '#F_trainers',
+    data: {
+        see : false,
+        video : ''
+    },
+    methods: {
+        show_video(type){
+            this.see = true;
+            if(type == 1){
+                this.$refs.videoPlay.src = '/images/video1.mp4';
+            }
+            else if(type == 2){
+                this.$refs.videoPlay.src = '/images/video2.mp4';
+            }else{
+                this.$refs.videoPlay.src = '/images/video3.mp4';
+            }
+        },
+        cancel() {
+            this.see = false;
+            this.video = '';
+        },
+    }
+})
+
+var app = new Vue({
     el: '#F_training_style',
     data: {
 

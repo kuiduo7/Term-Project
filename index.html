@@ -17,7 +17,7 @@
   <header id="F_header">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-12">
+        <div class="col-lg-12">
           <nav class="navbar navbar-default navbar-static-top navbar-F">
             <div class="container">
               <!-- Brand and toggle get grouped for better mobile display -->
@@ -71,7 +71,7 @@
     </video>
 
     <div class="video-overlay header-text">
-      <div class="caption">
+      <div class="title">
         <h2>U <em>Journey</em></h2>
       </div>
     </div>
@@ -289,6 +289,20 @@
   <section id="F_trainers">
     <div class="container">
       <div class="row">
+        <div class="col-lg-12" v-cloak> 
+          <div class="mask" v-show="see">
+            <div class="mask_content">
+              <div class="delete_content">
+                <span class="glyphicon glyphicon-remove" aria-hidden="true" @click="cancel()" ></span>
+              </div>
+              <div class="embed-responsive embed-responsive-16by9">
+                <video ref="videoPlay" width="320" height="240" controls></video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
         <div class="col-lg-6  col-lg-offset-3">
           <div class="section-header">
             <h2>Expert <em>Trainers</em></h2>
@@ -299,7 +313,7 @@
       </div>
       <div class="row">
         <div class="col-lg-4">
-          <div class="trainer-info">
+          <div class="trainer-info" @click="show_video(1)">
             <div class="image-div">
               <img src="/images/bodybuilding_trainer.jpeg" alt="">
             </div>
@@ -312,7 +326,7 @@
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="trainer-info">
+          <div class="trainer-info" @click="show_video(2)">
             <div class="image-div">
               <img src="/images/pilates_trainer.jpeg" alt="">
             </div>
@@ -325,7 +339,7 @@
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="trainer-info">
+          <div class="trainer-info" @click="show_video(3)">
             <div class="image-div">
               <img src="/images/yoga_trainer.jpeg" alt="">
             </div>
