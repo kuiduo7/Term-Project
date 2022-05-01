@@ -33,3 +33,6 @@ $(function(){
      $(window).trigger("resize");
 });
 
+$('.carousel').carousel({
+    interval: 2000
+  })
