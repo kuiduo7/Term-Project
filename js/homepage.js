@@ -99,13 +99,12 @@ var app = new Vue({
                    this.emailMsg = '';
                    this.titleMsg = '';
                    this.mainMsg = '';
-                   reload();
-
+                    window.location.href = "/index.html";
                 },
                 error: function() {
                     alert("Something is wrong! ");      
                 }
-              });
+            });
         }
     }
 })
