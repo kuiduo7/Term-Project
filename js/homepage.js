@@ -99,6 +99,7 @@ var app = new Vue({
                    this.emailMsg = '';
                    this.titleMsg = '';
                    this.mainMsg = '';
+                   reload();
 
                 },
                 error: function() {
