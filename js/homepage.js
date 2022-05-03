@@ -88,7 +88,7 @@ var app = new Vue({
                 method: "POST",
                 dataType: "json",
                 data: {
-                  email: this.nameMsg,
+                  name: this.nameMsg,
                   email: this.emailMsg,
                   title: this.titleMsg,
                   message: this.mainMsg
