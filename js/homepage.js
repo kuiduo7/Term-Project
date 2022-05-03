@@ -1,6 +1,5 @@
 $(function () {
     let allLis = $("#F-nav li");
-    console.log(allLis);
 
     $(allLis[1]).on("click", function () {
         $("html,body").animate({ scrollTop: $("#F_about").offset().top }, 1000);
